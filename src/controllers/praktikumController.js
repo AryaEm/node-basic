@@ -15,7 +15,7 @@ exports.identitas = (req, res) => {
     const kelas = req.params.kelas
     let response = {
         nama: name,
-        kelas: kelan
+        kelas: kelas
     }
     return res.json(response)
 }
